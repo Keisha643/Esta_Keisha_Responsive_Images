@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
     <title>Responsive Images</title>
 </head>
 <body>
-    
+
+    <!-- Picture Element -->
+     <section class="grid-con center-grid-con">
+        <h2 class="col-start-1 col-end-2 m-col-span-3">Foxes</h2>
+        <p class="col-start-1 col-end-4 m-col-span-12">Foxes are small-to-medium-sized omnivorous mammals belonging to several genera of the family Canidae. They have a flattened skull; upright, triangular ears; a pointed, slightly upturned snout; and a long, bushy tail ("brush").</p>
+        <picture class="col-start-2 col-end-4 m-col-span-full">
+            <source srcset="images/two_foxes.jpg" media="(min-width: 768px)" alt="two foxes booping each oher's snouts"> 
+            <img src="images/two_foxes_closeup.jpg" alt="close-up shot of two foxes booping each oher's snouts">
+        </picture>
+     </section>
+
+     
+     <script src="js/main.js"></script>
 </body>
 </html>
