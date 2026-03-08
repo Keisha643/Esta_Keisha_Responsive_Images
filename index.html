@@ -19,7 +19,24 @@
         </picture>
      </section>
 
-     
+    <!-- Image scrset -->
+     <section class="grid-con center-grid-con">
+        <h2 class="col-start-1 col-end-2 m-col-span-3">Polar Bear</h2>
+        <p class="col-start-1 col-end-4 m-col-span-12">Polar bears (Ursus maritimus) are large carnivorous mammals native to the Arctic, known for their impressive adaptations to cold environments and their reliance on sea ice for survival.</p>
+        <div class="col-span-full">
+            <img
+                sizes="
+                (max-width: 1920px) 100vw, 1920px"
+                srcset="
+                images/polar_bear_ljrbgf_c_scale,w_320.jpg 320w,
+                images/polar_bear_ljrbgf_c_scale,w_1072.jpg 1072w,
+                images/polar_bear_ljrbgf_c_scale,w_1558.jpg 1558w,
+                images/polar_bear_ljrbgf_c_scale,w_1920.jpg 1920w"
+                src="images/polar_bear_ljrbgf_c_scale,w_1920.jpg"
+                alt="polar bear">
+        </div>
+     </section>
+
      <script src="js/main.js"></script>
 </body>
 </html>
